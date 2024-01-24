@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hockey world sports</title>
+    <!-- tailwind and daisy UI -->
+     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+   <!-- manrope google font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link
+      rel="shortcut icon"
+      href="Images/basketball-solid.svg"
+      type="image/x-icon"
+    />
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/c8f495f7f7.js" crossorigin="anonymous"></script>
+<!-- tailwind custom color -->
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'gradient-start': 'bg-[#13131809]',
+            'gradient-end': '#F00',
+          }
+        }
+      }
+    }
+  </script>
+<style>
+    .font-manrope{
+        font-family: 'Manrope',sans-serif;
+    }
+</style>
+</head>
+<body class="font-manrope">
+    <header class="lg:w-[80%] lg:mt-10 mt-3 w-[90%] m-auto">
+        <nav class="container max-auto my-8 lg:-14">
+            <div class="navbar p-0 bg-base-100">
+                <div class="navbar-start">
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost pl-[0px] lg:hidden">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                    </div>
+                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                      <span class= "text-orange-600 font-bold"><li><a>Home</a></li></span>
+                      <li><a>About</a></li>
+                      <li><a>Pages</a></li>
+                      <li><a>Blog</a></li>
+                      <li><a>Contact</a></li>
+                    </ul>
+                  </div>
+                  <a class="cursor-pointer font-extrabold lg:text-4xl text-2xl">Hockey<span class="text-orange-600">’</span>s</a>
+                </div>
+                <div class="navbar-center hidden xl:flex lg:flex">
+                  <ul class="menu menu-horizontal mr-11">
+                    <span class="text-orange-600 font-bold"><li><a>Home</a></li></span>
+                      <li><a>About</a></li>
+                      <li><a>Pages</a></li>
+                      <li><a>Blog</a></li>
+                      <li><a>Contact</a></li>
+                  </ul>
+                </div>
+                <div class="navbar-end">
+                  <a class="mr-6 text-2xl hidden lg:block" href="http://" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-magnifying-glass" style="color: #d1d1d1;"></i></a>
+                  <a class="cursor-pointer rounded-lg bg-orange-600 text-white lg:text-xl text-[18px] font-bold px-4 py-2 lg:px-6 lg:py-4">Get Ticket</a>
+                </div>
+              </div>
+            </nav>
